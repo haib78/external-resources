@@ -1,5 +1,5 @@
 const apds9960 = formatMessage => ({
-    name: 'APDS9960',
+    name: 'APDS996023',
     extensionId: 'apds9960',
     version: '1.0.0',
     supportDevice: ['arduinoUno', 'arduinoNano', 'arduinoMini', 'arduinoLeonardo',

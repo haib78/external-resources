@@ -1,9 +1,9 @@
 const apds9960 = formatMessage => ({
-    name: 'APDS996023',
+    name: 'APDS9960',
     extensionId: 'apds9960',
     version: '1.0.0',
     supportDevice: ['arduinoUno', 'arduinoNano', 'arduinoMini', 'arduinoLeonardo',
-        'arduinoMega2560', 'arduinoEsp32', 'arduinoEsp8266'],
+        'arduinoMega2560', 'arduinoEsp32', 'arduinoEsp8266','ZQ202'],
     author: 'ArthurZheng',
     iconURL: `asset/apds9960.png`,
     description: formatMessage({
@@ -16,7 +16,7 @@ const apds9960 = formatMessage => ({
     toolbox: 'toolbox.js',
     msg: 'msg.js',
     library: 'lib',
-    tags: ['sensor'],
+    tags: ['ZQrobot'],
     helpLink: 'https://openblockcc.gitee.io/wiki/main'
 });
 

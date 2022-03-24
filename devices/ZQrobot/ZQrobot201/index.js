@@ -1,13 +1,10 @@
-const QDPRobotC02 = formatMessage => ({
-    name: 'QDP RobotC02',
-    deviceId: 'QDPRobotC02_arduinoEsp32',
+const ZQrobot202 = formatMessage => ({
+    name: 'ZQrobot-202',
+    deviceId: 'ZQrobot202_ZQ202',
     manufactor: 'QDP Robot',
     learnMore: 'https://qdprobot.taobao.com',
-    iconURL: 'asset/QDPRobotC02.png',
-    description: formatMessage({
-        id: 'QDPRobotC02.description',
-        default: 'QDP robot C02.'
-    }),
+    iconURL: 'asset/ZQ202.png',
+    description: '卓器机器人202',
     disabled: false,
     bluetoothRequired: false,
     serialportRequired: true,
@@ -19,14 +16,14 @@ const QDPRobotC02 = formatMessage => ({
     internetConnectionRequired: false,
     launchPeripheralConnectionFlow: true,
     useAutoScan: false,
-    connectionIconURL: 'asset/QDPRobotC02-illustration.svg',
-    connectionSmallIconURL: 'asset/QDPRobotC02-small.svg',
+    connectionIconURL: 'asset/ZQ202-illustration.svg',
+    connectionSmallIconURL: 'asset/ZQ202-small.svg',
     programMode: ['upload'],
     programLanguage: ['block', 'cpp'],
-    tags: ['microbit', 'kit'],
-    deviceExtensions: ['QDPRobotC02'],
+    tags: ['ZQrobot'],
+    deviceExtensions: ['ZQrobot202'],
     deviceExtensionsCompatible: 'arduinoEsp32',
     helpLink: 'http://www.qdprobot.com/'
 });
 
-module.exports = QDPRobotC02;
+module.exports = ZQrobot202;
